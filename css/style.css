@@ -48,8 +48,7 @@ h2.title {
 }
 
 .simple .title_big {
-    /* color: #ffffff; */
-    color: red;
+    color: #ffffff;
     font-size: 80px;
     text-transform: uppercase;
     text-align: center;
