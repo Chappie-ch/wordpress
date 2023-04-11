@@ -129,3 +129,22 @@ h2.title {
     color: #252525;
     text-align: center;
 }
+
+.waiting .waiting_divider {
+    width: 217px;
+    height: 4px;
+    margin: 0 auto;
+    background: #F9BF3B;
+    margin-top: 18px;
+}
+
+.waiting .waiting_subheader {
+    margin-top: 17px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 20px;
+    text-align: center;
+    color: #4A4A4A;
+}
+
