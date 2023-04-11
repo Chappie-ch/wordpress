@@ -114,3 +114,18 @@ h2.title {
     margin: 0 auto;
     margin-top: 15px;
 }
+
+.waiting {
+    height: 604px;
+    padding: 85px 0 75px 0;
+    background: #EFEFEF;
+}
+
+.waiting .waiting_header {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #252525;
+    text-align: center;
+}
