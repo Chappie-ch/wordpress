@@ -159,3 +159,17 @@ h2.title {
     width: 339px;
     text-align: center;
 }
+
+.waiting .waiting_wrapper .waiting_item .waiting_img {
+    width: 100%;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_descr {
+    margin-top: 33px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    display: flex;
+    color: #4A4A4A;
+}
