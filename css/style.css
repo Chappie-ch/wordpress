@@ -173,3 +173,17 @@ h2.title {
     display: flex;
     color: #4A4A4A;
 }
+
+.my-flex-container {
+    display: flex;
+    justify-content: center;
+    height: 450px;
+}
+
+.my-flex-block {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    text-align: center;
+    color:#ffffff
+}
