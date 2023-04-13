@@ -149,13 +149,12 @@ h2.title {
 }
 
 .waiting .waiting_wrapper {
+    display: flex;
+    justify-content: space-between;
     margin-top: 45px;
 }
 
 .waiting .waiting_wrapper .waiting_item {
-    display: inline-block;
-    vertical-align: top;
-    margin: 0 15px;
     width: 339px;
     text-align: center;
 }
@@ -174,18 +173,3 @@ h2.title {
     color: #4A4A4A;
 }
 
-.my-flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    height: 450px;
-}
-
-.my-flex-block {
-    width: 150px;
-    height: 150px;
-    background-color: red;
-    text-align: center;
-    color:#ffffff
-}
