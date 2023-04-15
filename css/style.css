@@ -5,6 +5,7 @@
 }
 
 .container {
+    position: relative;
     width: 1140px;
     margin: 0 auto;
 }
@@ -199,4 +200,11 @@ h2.title {
 .optimization .optimization_text span {
     font-family: "Roboto - Bold", sans-serif;
     font-weight: 700;
+}
+
+.optimization .optimization_img {
+    position: absolute;
+    top: -54px;
+    left: -240px;
+    z-index: -1;
 }
