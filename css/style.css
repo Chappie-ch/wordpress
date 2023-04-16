@@ -250,3 +250,24 @@ h2.title {
     display: flex;
     color: #EFEFEF;
 }
+
+.intensiv .gift_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.intensiv .intensiv_gift_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    /* or 143% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #252525;
+
+}
