@@ -264,6 +264,8 @@ h2.title {
 }
 
 .intensiv .intensiv_gift_text {
+    margin-top: 22px;
+    padding: 0 80px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
