@@ -252,7 +252,7 @@ h2.title {
 }
 
 .intensiv {
-    min-height: 630px;
+    
     padding: 88px 0 87px 0;
     background: #EFEFEF;
 }
@@ -303,3 +303,74 @@ h2.title {
     text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
 }
 
+.first_web {
+    min-height: 550px;
+    padding: 102px 0 107px 0;
+    align-items: center;
+    text-align: center;
+}
+
+.first_web .webinar {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #252525;
+}
+
+.first_web .first_web_img {
+    width: 342px;
+    height: 201px;
+    left: 116px;
+    top: 8px;
+}
+
+.first_web .first_web_header {
+    font-family: 'Roboto';
+    font-style: normal;
+    margin-top: 36px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #252525;
+}
+
+.first_web .first_web_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    margin-top: 30px;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 36px;
+    /* or 100% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #299CBD;
+
+}
+
+.first_web .first_web_text2 {
+    font-family: 'Roboto';
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #4A4A4A;
+}
