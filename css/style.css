@@ -376,3 +376,23 @@ h2.title {
 
     color: #4A4A4A;
 }
+
+.footer {
+    width: 1922px;
+    height: 169px;
+    left: 0px;
+    top: 0px;
+    background: #1A1A1A;
+}
+
+.footer_text {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #888888;
+}
