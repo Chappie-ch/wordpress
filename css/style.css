@@ -293,7 +293,7 @@ h2.title {
     line-height: 24px;
     /* identical to box height, or 114% */
 
-    display: flex;
+    display: flexbox;
     align-items: center;
     text-align: center;
     text-transform: uppercase;
@@ -308,6 +308,7 @@ h2.title {
     padding: 102px 0 107px 0;
     align-items: center;
     text-align: center;
+    display: flexbox;
 }
 
 .first_web .webinar {
@@ -316,7 +317,7 @@ h2.title {
     font-weight: 400;
     font-size: 30px;
     line-height: 30px;
-    display: flex;
+    display: flexbox;
     align-items: center;
     text-align: center;
     text-transform: uppercase;
@@ -328,6 +329,7 @@ h2.title {
     height: 201px;
     left: 116px;
     top: 8px;
+    display: flexbox;
 }
 
 .first_web .first_web_header {
@@ -337,7 +339,7 @@ h2.title {
     font-weight: 400;
     font-size: 30px;
     line-height: 30px;
-    display: flex;
+    display: flexbox;
     align-items: center;
     text-align: center;
     text-transform: uppercase;
@@ -353,7 +355,7 @@ h2.title {
     line-height: 36px;
     /* or 100% */
 
-    display: flex;
+    display: flexbox;
     align-items: center;
     text-align: center;
     text-transform: uppercase;
@@ -368,7 +370,7 @@ h2.title {
     font-weight: 400;
     font-size: 23px;
     line-height: 20px;
-    display: flex;
+    display: flexbox;
     align-items: center;
     text-align: center;
 
