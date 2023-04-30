@@ -278,28 +278,22 @@ h2.title {
 }
 
 .intensiv .gift_btn {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0 auto;
     margin-top: 51px;
+    margin-bottom: 88px;
     width: 313px;
     height: 72px;
-    left: 805px;
-    top: 471px;
     background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
-
-    font-family: 'RobotoCondensed';
+    font-family: 'Roboto', sans-serif;
     font-size: 21px;
     line-height: 24px;
-    /* identical to box height, or 114% */
-
-    display: flexbox;
-    align-items: center;
     text-align: center;
     text-transform: uppercase;
-
     color: #FFFFFF;
-
     text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
 }
 
@@ -308,7 +302,7 @@ h2.title {
     padding: 102px 0 107px 0;
     align-items: center;
     text-align: center;
-    display: flexbox;
+    background-color: #ffffff;
 }
 
 .first_web .webinar {
@@ -317,10 +311,8 @@ h2.title {
     font-weight: 400;
     font-size: 30px;
     line-height: 30px;
-    display: flexbox;
     align-items: center;
     text-align: center;
-    text-transform: uppercase;
     color: #252525;
 }
 
@@ -329,7 +321,6 @@ h2.title {
     height: 201px;
     left: 116px;
     top: 8px;
-    display: flexbox;
 }
 
 .first_web .first_web_header {
@@ -339,7 +330,6 @@ h2.title {
     font-weight: 400;
     font-size: 30px;
     line-height: 30px;
-    display: flexbox;
     align-items: center;
     text-align: center;
     text-transform: uppercase;
@@ -355,7 +345,6 @@ h2.title {
     line-height: 36px;
     /* or 100% */
 
-    display: flexbox;
     align-items: center;
     text-align: center;
     text-transform: uppercase;
@@ -370,19 +359,17 @@ h2.title {
     font-weight: 400;
     font-size: 23px;
     line-height: 20px;
-    display: flexbox;
     align-items: center;
     text-align: center;
-
     color: #4A4A4A;
 }
 
-.footer {
-    width: 1922px;
+footer {
+    width: 100%;
     height: 169px;
-    left: 0px;
-    top: 0px;
-    background: #1A1A1A;
+    background-color: #1A1A1A;
+    display: flex;
+    justify-content: center;
 }
 
 .footer_text {
