@@ -134,7 +134,7 @@ h2.title {
     color: #ffffff;
 }
 
-.waiting .waiting_divider .finish .finish_divider {
+.waiting .waiting_divider, .finish .finish_divider{
     width: 217px;
     height: 4px;
     background: #F9BF3B;
