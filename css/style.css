@@ -47,6 +47,27 @@ h2.title {
     margin-top: 20px;
 }
 
+h2.title_big:before, h2.title_big:after{
+    content: "";
+    display: inline-block;
+    vertical-align: 30px;
+    width: 100%;
+    max-width: 292px;
+    height: 2px;
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+h2.title_big:before {
+    margin-left: -100%;
+    left: -14px;
+}
+
+h2.title_big:after {
+    margin-right: -100%;
+    right: -14px;
+}
+
 .simple .title_big {
     color: #ffffff;
     font-size: 80px;
@@ -74,25 +95,6 @@ h2.title {
     color: #F9BF3B;
     }
 
-.promo .promo_btn {
-    display: block;
-    margin: 0 auto;
-    margin-top: 72px;
-    width: 313px;
-    height: 72px;
-    background-image: linear-gradient(to top, #2798B9 0%, #3AB6DA 100%);
-    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
-    border: none;
-    font-family: 'Roboto', sans-serif;
-    font-size: 21px;
-    line-height: 24px;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
-    cursor: pointer;
-    outline: none;
-}
 
 .more {
     margin-top: 70px;
@@ -131,14 +133,6 @@ h2.title {
 
 .finish .finish_header {
     color: #ffffff;
-}
-
-.waiting .waiting_divider, .finish .finish_divider{
-    width: 217px;
-    height: 4px;
-    background: #F9BF3B;
-    margin: 0 auto;
-    margin-top: 18px;
 }
 
 .waiting .waiting_subheader {
@@ -278,23 +272,8 @@ h2.title {
 }
 
 .intensiv .gift_btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
     margin-top: 51px;
-    width: 313px;
-    height: 72px;
-    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
-    border: none;
-    font-family: 'Roboto', sans-serif;
-    font-size: 21px;
-    line-height: 24px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
 }
 
 .first_web {
@@ -385,4 +364,32 @@ footer {
     font-weight: 300;
     font-size: 15px;
     line-height: 21px;
+}
+
+.blue_btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 72px;
+    width: 313px;
+    height: 72px;
+    background-image: linear-gradient(to top, #2798B9 0%, #3AB6DA 100%);
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
+    cursor: pointer;
+    outline: none;
+}
+
+.divider {
+    width: 217px;
+    height: 4px;
+    background: #F9BF3B;
+    margin: 0 auto;
+    margin-top: 18px;
 }
