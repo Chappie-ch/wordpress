@@ -5,12 +5,13 @@
 }
 
 .container {
-    width: 1140px;
+    padding: 0 30px;
+    width: 100%;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
 .promo {
-    height: 800px;
     background: url("../img/bg/main_bg.jpg") center center/cover no-repeat;
     padding: 38px 0 61px 0;
 }
@@ -118,7 +119,7 @@ h2.title_big:after {
 
 .waiting {
     min-height: 604px;
-    padding: 85px 0 75px 0;
+    padding: 85px 0 42px 0;
     background: #EFEFEF;
 }
 
@@ -152,8 +153,10 @@ h2.title_big:after {
 }
 
 .waiting .waiting_wrapper .waiting_item {
-    width: 339px;
+    width: 100%;
+    max-width: 359px;
     text-align: center;
+    padding: 0 10px;
 }
 
 .waiting .waiting_wrapper .waiting_item .waiting_img {
@@ -161,7 +164,7 @@ h2.title_big:after {
 }
 
 .waiting .waiting_wrapper .waiting_item .waiting_descr {
-    margin-top: 33px;
+    margin: 33px 0;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 15px;
@@ -171,6 +174,7 @@ h2.title_big:after {
 }
 
 .optimization {
+    display: none;
     min-height: 550px;
     padding: 102px 0 107px 0;
     position: relative;
@@ -208,6 +212,7 @@ h2.title_big:after {
 }
 
 .finish {
+    display: none;
     min-height: 447px;
     padding: 86px 0 79px 0;
     background: url("../img/bg/second_bg.jpg") center center/cover no-repeat;
@@ -246,7 +251,7 @@ h2.title_big:after {
 }
 
 .intensiv {
-    
+    display: none;
     padding: 88px 0 87px 0;
     background: #EFEFEF;
 }
@@ -277,6 +282,7 @@ h2.title_big:after {
 }
 
 .first_web {
+    display: none;
     min-height: 550px;
     padding: 102px 0 107px 0;
     align-items: center;
@@ -349,6 +355,7 @@ footer {
     background-color: #1A1A1A;
     display: flex;
     justify-content: center;
+    display: none;
 }
 
 .footer_text {
@@ -370,7 +377,8 @@ footer {
     display: block;
     margin: 0 auto;
     margin-top: 72px;
-    width: 313px;
+    max-width: 313px;
+    width: 100%;
     height: 72px;
     background-image: linear-gradient(to top, #2798B9 0%, #3AB6DA 100%);
     box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
@@ -392,4 +400,28 @@ footer {
     background: #F9BF3B;
     margin: 0 auto;
     margin-top: 18px;
+}
+
+@media (max-width: 1200px){
+    h2.title_big:before, h2.title_big:after {
+        max-width: 180px;
+    }
+}
+
+@media (max-width: 992px){
+    h2.title_big:before, h2.title_big:after {
+        display: none;
+    }
+}
+
+@media (max-width: 540px){
+    .simple .title_big{
+        font-size: 65px;
+    }
+    .title{
+        font-size: 30px;
+    }
+    .waiting_wrapper{
+        flex-direction: column
+    }
 }
